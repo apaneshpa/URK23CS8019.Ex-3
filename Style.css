@@ -1,0 +1,138 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  color: #fff;
+  padding: 15px 30px;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+header input {
+  padding: 5px 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Banner */
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+/* Welcome Section */
+.welcome {
+  text-align: center;
+  padding: 30px;
+  background-color: #f8f8f8;
+}
+
+.welcome h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.welcome p {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Gallery Section */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 30px;
+  background-color: #eee;
+}
+
+.gallery-item {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Set background images for gallery items */
+.gallery-item:nth-child(1) { background-image: url("https://cdn.alza.cz/Foto/ImgGalery/Image/playstation-5-pro-design_1.jpg"); }
+.gallery-item:nth-child(2) { background-image: url("https://luckyfalconcomputers.com/wp-content/uploads/2024/11/Asus-Gaming-Laptops-2025-1024x576.jpg"); }
+.gallery-item:nth-child(3) { background-image: url("https://blog.playstation.com/tachyon/2022/02/8fd9c404e81dd1f0929b574b7689c9ae0fdaf5d4-scaled.jpg?resize=1088%2C612&crop_strategy=smart"); }
+.gallery-item:nth-child(4) { background-image: url("https://www.gamespot.com/a/uploads/screen_kubrick/1587/15875866/3615291-xbox-series-x-main.jpg"); }
+.gallery-item:nth-child(5) { background-image: url("https://t3.ftcdn.net/jpg/06/25/07/28/360_F_625072874_eRoy4HUb8IOzTxCnS6jLT32ChaPG3rvb.jpg"); }
+.gallery-item:nth-child(6) { background-image: url("https://cdn.shopify.com/s/files/1/0352/7530/9191/files/image14_600x600.png?v=1694172634"); }
+
+.caption {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 5px;
+  font-size: 0.9rem;
+}
+
+/* Content Sections */
+.content-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.content-section.reverse {
+  flex-direction: row-reverse;
+}
+
+.content-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.content-text {
+  flex: 1;
+}
+
+.content-text h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.content-text p {
+  line-height: 1.6;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
