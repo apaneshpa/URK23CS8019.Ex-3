@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gaming Galaxy</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Gaming Zone</h1>
+    <input type="text" placeholder="Search games..." />
+  </header>
+
+  <!-- Banner -->
+  <section class="banner">
+    <img src="C:\Users\Panner\OneDrive\Desktop\6e90a5fc-f547-4b38-b610-64d6a4c66e67None" alt="Gaming Banner" />
+  </section>
+
+  <!-- Welcome Section -->
+  <section class="welcome">
+    <h2>Welcome to Gaming Galaxy</h2>
+    <p>Level up your gaming experience with our curated collection of consoles, games, and accessories. Explore the world of immersive entertainment with the best deals and the latest technology at Gaming Galaxy.</p>
+  </section>
+
+  <!-- Gallery of Products -->
+  <section class="gallery">
+    <div class="gallery-item">
+      <div class="caption">PS5 Console</div>
+    </div>
+    <div class="gallery-item">
+      <div class="caption">Gaming Laptop</div>
+    </div>
+    <div class="gallery-item">
+      <div class="caption">VR Headset</div>
+    </div>
+    <div class="gallery-item">
+      <div class="caption">Xbox Series X</div>
+    </div>
+    <div class="gallery-item">
+      <div class="caption">Gaming Mouse</div>
+    </div>
+    <div class="gallery-item">
+      <div class="caption">Graphics Card</div>
+    </div>
+  </section>
+
+  <!-- Content Section -->
+  <section class="content-section">
+    <div class="content-image">
+      <img src="https://cdn.geekwire.com/wp-content/uploads/2020/09/PS5-release.jpg" alt="Next-gen console" />
+    </div>
+    <div class="content-text">
+      <h3>Next-Gen Consoles</h3>
+      <p>Experience breathtaking graphics and lightning-fast load times with the newest generation of consoles now available in our store.</p>
+    </div>
+  </section>
+
+  <section class="content-section reverse">
+    <div class="content-text">
+      <h3>PC Gaming Rigs</h3>
+      <p>Build your dream PC with high-end components and get the ultimate performance for your favorite AAA titles.</p>
+    </div>
+    <div class="content-image">
+      <img src="https://rog.asus.com/media/1644549597584.jpg" alt="Gaming PC" />
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Gaming Galaxy. All rights reserved.
+  </footer>
+</body>
+</html>
